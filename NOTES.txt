@@ -1,0 +1,12 @@
+CSS NOTES:
+
+Attaching a stylesheet:  <link href="layout.css" rel="stylesheet" type="text/css">
+
+
+float: left; - use float to get block elements to slide next to each other
+
+
+display: block; - Displaying the links as block elements makes the whole link area clickable (not just the text), and it allows us to specify padding (and height, width, margins, etc. if you want)
+
+
+background-size:272px 92px;height:92px;width:272px"

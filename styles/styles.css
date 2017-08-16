@@ -1,0 +1,83 @@
+div.header {
+    overflow-x: 100px;
+    clear: left;
+}
+
+
+div.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 310px;
+    padding-top: 100px;
+    position: relative;
+
+}
+
+
+
+
+div.search { 
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    padding-top: 25px;
+    background-size:300px 92px;height:92px;width:300px;
+ }
+
+
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+
+}
+
+li {
+    float: left; 
+}
+
+
+
+li a {
+    display: block;  /** display: block; - Displaying the links as block elements makes the whole link area clickable (not just the text), and it allows us to specify padding (and height, width, margins, etc. if you want) **/
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ffcc33;
+}
+
+
+.leftbar {
+    display: inline-block;
+  float: left;
+}
+
+
+ol {
+    list-style-type:none;
+    position: fixed;
+    bottom: 0px;
+    background-color: #333;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
